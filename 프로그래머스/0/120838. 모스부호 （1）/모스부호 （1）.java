@@ -8,7 +8,6 @@ class Solution {
         for(int i=0; i<letters.length; i++){
             for(int u=0; u<morse.length; u++){
                 if(letters[i].equals(morse[u])){
-                    
                     answer += (char)(u+97);
                 }
             }
