@@ -8,7 +8,6 @@ class Solution {
         int minA = 0;
         int minB = 0;
         String direction = "right";
-        boolean flag = false;
         
         for(int i=1; i<=n*n; i++){
             
